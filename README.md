@@ -9,11 +9,12 @@ My first Codex practice repository.
 
 ### Preview locally
 
-You can quickly preview the static page by starting a simple web server from the
-repository root:
+1. Install Python 3 if you don't have it (already available on most environments).
+2. From the repository root, start a simple web server:
 
-```bash
-python -m http.server 8000
-```
+   ```bash
+   python -m http.server 8000
+   ```
 
-Then open http://localhost:8000 in your browser.
+3. Open your browser and visit **http://localhost:8000** to preview `index.html`.
+4. Stop the server anytime with `Ctrl + C` in the terminal.
